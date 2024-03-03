@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url("../../../Assets/images/banner.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76QLts00o1nCiQAV6Yo8f2yyjr-HFkO1KKQ&usqp=CAU");
 }
 
 .account-box {
@@ -26,6 +26,7 @@ body {
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(255, 255, 255, 0.6);
   border-radius: 10px;
+
 }
 
 .account-box h2 {
@@ -103,4 +104,9 @@ button {
   font-size: 12px;
   opacity: .8;
 
+}
+@media only screen and (max-width: 360px) {
+  .account-box{
+    width: 300px;
+  }
 }
